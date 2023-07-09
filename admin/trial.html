@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkbox Counter</title>
+    <style>
+        label {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Checkbox Counter</h1>
+
+    <form id="checkboxForm">
+        <label for="numberInput">Enter the maximum number of checkboxes to be clicked:</label>
+        <input type="number" id="numberInput" min="1" required>
+    </form>
+
+    <div id="checkboxContainer">
+        <label><input type="checkbox"> Checkbox 1</label>
+        <label><input type="checkbox"> Checkbox 2</label>
+        <label><input type="checkbox"> Checkbox 3</label>
+        <label><input type="checkbox"> Checkbox 4</label>
+        <label><input type="checkbox"> Checkbox 5</label>
+    </div>
+
+    <script>
+        // Get references to the number input and checkboxes
+        var numberInput = document.getElementById("numberInput");
+        var checkboxes = document.querySelectorAll("#checkboxContainer input[type='checkbox']");
+
+        // Add event listeners to the checkboxes
+        checkboxes.forEach(function(checkbox) {
+            checkbox.addEventListener("change", function() {
+                var maxCount = parseInt(numberInput.value);
+                var checkedCount = getCheckedCount();
+
+                if (checkedCount > maxCount) {
+                    alert("You can only select " + maxCount + " checkboxes.");
+                    this.checked = false;
+                }
+            });
+        });
+
+        // Function to get the count of checked checkboxes
+        function getCheckedCount() {
+            var count = 0;
+            checkboxes.forEach(function(checkbox) {
+                if (checkbox.checked) {
+                    count++;
+                }
+            });
+            return count;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+#mycreateddiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.mycreatedspan{
+    display: inline-block;
+    /* border: 1px solid #eee; */
+    padding: 10px 100px 10px 10px;
+    width: 100%;
+    height: 40px;
+    font: 16px/1.4 'Mulish', sans-serif;
+    color: #333;
+}
+#mycreateddiv{
+    display: flex;
+    /* justify-content: space-between; */
+}
+  .mycreatedspan{
+      /* display: inline-block; */
+      /* border: 1px solid #eee; */
+      flex;
+      padding: 10px 100px 10px 10px;
+      width: 25%;
+      height: 40px;
+      font: 16px/1.4 'Mulish', sans-serif;
+      color: #333;
+  }

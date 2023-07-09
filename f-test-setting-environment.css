@@ -1,0 +1,1097 @@
+.-test-setting-environment-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.-test-setting-environment-navbar-interactive {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 96px;
+  display: flex;
+  z-index: 1;
+  position: fixed;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, rgb(189, 195, 199) 0.00%,rgb(58, 50, 151) 100.00%);
+}
+.-test-setting-environment-logo {
+  height: 2rem;
+}
+.-test-setting-environment-desktop-menu {
+  display: flex;
+}
+.-test-setting-environment-thq-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.-test-setting-environment-dropdown-toggle {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  font-family: Titillium Web;
+  font-weight: 500;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.-test-setting-environment-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+}
+.-test-setting-environment-dropdown-list {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 200;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.-test-setting-environment-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.-test-setting-environment-dropdown-toggle1 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.-test-setting-environment-dropdown-toggle1:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.-test-setting-environment-text01 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 500;
+}
+.-test-setting-environment-dropdown1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.-test-setting-environment-dropdown-toggle2 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.-test-setting-environment-dropdown-toggle2:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.-test-setting-environment-text02 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 500;
+}
+.-test-setting-environment-dropdown2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.-test-setting-environment-dropdown-toggle3 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.-test-setting-environment-dropdown-toggle3:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.-test-setting-environment-text03 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 500;
+}
+.-test-setting-environment-burger-menu {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.-test-setting-environment-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.-test-setting-environment-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: fixed;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.-test-setting-environment-icon-group {
+  display: flex;
+}
+.-test-setting-environment-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.-test-setting-environment-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.-test-setting-environment-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.-test-setting-environment-container01 {
+  top: 96px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  scroll-behavior: auto;
+}
+.-test-setting-environment-container02 {
+  top: 10px;
+  left: 2%;
+  width: 96%;
+  /* height: ; */
+  display: flex;
+  position: absolute;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  align-items: flex-start;
+}
+.-test-setting-environment-text04 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-gray-500);
+}
+.-test-setting-environment-container03 {
+  top: var(--dl-space-space-threeunits);
+  flex: 0 0 auto;
+  left: 0px;
+  right: -141px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.-test-setting-environment-container04 {
+  flex: 0 0 auto;
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.-test-setting-environment-container05 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text05 {
+  color: #000000;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-textinput {
+  top: 8px;
+  right: var(--dl-space-space-oneandhalfunits);
+  width: var(--dl-size-size-large);
+  height: 30px;
+  position: absolute;
+  font-family: Titillium Web;
+  border-width: 0px;
+  background-color: #bdbdbd;
+}
+.-test-setting-environment-container06 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text06 {
+  color: #000000;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-select {
+  top: 8px;
+  right: var(--dl-space-space-oneandhalfunits);
+  width: var(--dl-size-size-large);
+  height: 30px;
+  position: absolute;
+  margin-top: 2px;
+  font-family: Titillium Web;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: #bdbdbd;
+}
+.-test-setting-environment-container07 {
+  flex: 0 0 auto;
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.-test-setting-environment-container08 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text07 {
+  color: #000000;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-select1 {
+  top: 8px;
+  right: var(--dl-space-space-threeunits);
+  width: var(--dl-size-size-large);
+  height: 30px;
+  position: absolute;
+  margin-top: 2px;
+  font-family: Titillium Web;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: #bdbdbd;
+}
+.-test-setting-environment-container09 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text08 {
+  color: #000000;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-select2 {
+  top: 8px;
+  right: var(--dl-space-space-threeunits);
+  width: var(--dl-size-size-large);
+  height: 30px;
+  position: absolute;
+  margin-top: 2px;
+  font-family: Titillium Web;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: #bdbdbd;
+}
+.-test-setting-environment-container10 {
+  flex: 0 0 auto;
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.-test-setting-environment-container11 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text09 {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-select3 {
+  top: 8px;
+  right: var(--dl-space-space-threeunits);
+  width: var(--dl-size-size-large);
+  height: 30px;
+  position: absolute;
+  margin-top: 2px;
+  font-family: Titillium Web;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: #bdbdbd;
+}
+.-test-setting-environment-container12 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text10 {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-select4 {
+  top: 8px;
+  right: var(--dl-space-space-threeunits);
+  width: var(--dl-size-size-large);
+  height: 30px;
+  position: absolute;
+  font-size: 16px;
+  margin-top: 2px;
+  font-family: Titillium Web;
+  font-weight: 400;
+  line-height: 1.15;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  text-transform: none;
+  text-decoration: none;
+  background-color: #bdbdbd;
+}
+.-test-setting-environment-container13 {
+  top: 158px;
+  flex: 0 0 auto;
+  right: 0px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.-test-setting-environment-container14 {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.-test-setting-environment-button {
+  width: auto;
+  height: 100%;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+}
+.-test-setting-environment-text11 {
+  font-family: Titillium Web;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+.-test-setting-environment-icon08 {
+  width: 24px;
+  height: 24px;
+}
+.-test-setting-environment-button1 {
+  top: 0px;
+  right: 21%;
+  width: auto;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+}
+.-test-setting-environment-text12 {
+  font-family: Titillium Web;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+.-test-setting-environment-icon10 {
+  width: 24px;
+  height: 24px;
+}
+.-test-setting-environment-navlink3 {
+  top: 0px;
+  color: #ffffff;
+  right: 2%;
+  width: auto;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  text-decoration: none;
+  background-color: #2d2774;
+}
+.-test-setting-environment-text13 {
+  font-family: Titillium Web;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+.-test-setting-environment-navlink4 {
+  top: 0px;
+  color: #ffffff;
+  right: 12%;
+  width: auto;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-width: 0px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  text-decoration: none;
+  background-color: #2d2774;
+}
+.-test-setting-environment-text14 {
+  font-family: Titillium Web;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+.-test-setting-environment-textinput1 {
+  top: 0px;
+  left: 12%;
+  width: var(--dl-size-size-xlarge);
+  height: 100%;
+  position: absolute;
+  font-family: Titillium Web;
+}
+.-test-setting-environment-icon12 {
+  top: 0px;
+  left: 27%;
+  right: var(--dl-space-space-oneandhalfunits);
+  width: 30px;
+  height: 100%;
+  position: absolute;
+}
+.-test-setting-environment-container15 {
+  top: 60px;
+  flex: 0 0 auto;
+  left: 0px;
+  width: 100%;
+  height: 357px;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: absolute;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+input.styled{
+  width: 50px;
+  height: 20px;
+}
+.-test-setting-environment-container16 {
+  flex: 0 0 auto;
+  left: 9px;
+  width: 1402px;
+  bottom: -16px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-halfunit);
+  flex-direction: column;
+}
+.-test-setting-environment-container17 {
+  width: 100%;
+  height: 149px;
+  display: flex;
+  align-items: flex-start;
+}
+.-test-setting-environment-container18 {
+  flex: 0 0 auto;
+  width: 96%;
+  height: 130px;
+  display: flex;
+  margin-bottom: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  border-color: #000000;
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: column;
+}
+.-test-setting-environment-container19 {
+  flex: 0 0 auto;
+  width: 98%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  margin-left: 1%;
+  flex-direction: column;
+}
+.-test-setting-environment-text15 {
+  color: var(--dl-color-gray-black);
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text16 {
+  width: 100%;
+  height: auto;
+  font-family: Titillium Web;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-container20 {
+  width: 100%;
+  height: 33px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text17 {
+  width: 100%;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text18 {
+  width: 100%;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text19 {
+  width: 100%;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text20 {
+  width: 100%;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-container21 {
+  left: 0px;
+  width: 100%;
+  bottom: 12px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.-test-setting-environment-text21 {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: 6px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 20px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 6px ;
+  background-color: rgb(69, 83, 157);
+}
+.-test-setting-environment-text22 {
+  color: rgb(255, 255, 255);
+  right: 130px;
+  bottom: 0px;
+  height: 100%;
+  position: absolute;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: 6px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 20px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 6px ;
+  background-color: rgb(69, 83, 157);
+}
+.-test-setting-environment-text23 {
+  top: 0px;
+  color: rgb(255, 255, 255);
+  right: var(--dl-space-space-oneandhalfunits);
+  position: absolute;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: 6px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 20px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 6px ;
+  background-color: #278a4f;
+}
+.-test-setting-environment-container22 {
+  flex: 0 0 auto;
+  width: 4%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
+}
+.-test-setting-environment-button2 {
+  color: rgb(255, 255, 255);
+  align-self: center;
+  background-color: rgb(45, 39, 116);
+}
+.-test-setting-environment-container23 {
+  width: 100%;
+  height: 149px;
+  display: flex;
+  align-items: flex-start;
+}
+.-test-setting-environment-container24 {
+  flex: 0 0 auto;
+  width: 85%;
+  height: 130px;
+  display: flex;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  border-color: #000000;
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: column;
+}
+.-test-setting-environment-container25 {
+  flex: 0 0 auto;
+  width: 98%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  margin-left: 1%;
+  flex-direction: column;
+}
+.-test-setting-environment-text24 {
+  color: var(--dl-color-gray-black);
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text25 {
+  width: 100%;
+  height: auto;
+  font-family: Titillium Web;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-container26 {
+  width: 100%;
+  height: 33px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text26 {
+  width: 100%;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text27 {
+  width: 100%;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text28 {
+  width: 100%;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text29 {
+  width: 100%;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-container27 {
+  left: 0px;
+  width: 100%;
+  bottom: 12px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.-test-setting-environment-text30 {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: 6px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 20px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 6px ;
+  background-color: rgb(69, 83, 157);
+}
+.-test-setting-environment-text31 {
+  color: rgb(255, 255, 255);
+  right: 130px;
+  bottom: 0px;
+  height: 100%;
+  position: absolute;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: 6px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 20px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 6px ;
+  background-color: rgb(69, 83, 157);
+}
+.-test-setting-environment-text32 {
+  top: 0px;
+  color: rgb(255, 255, 255);
+  right: var(--dl-space-space-oneandhalfunits);
+  position: absolute;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: 6px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 20px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 6px ;
+  background-color: #278a4f;
+}
+.-test-setting-environment-container28 {
+  flex: 0 0 auto;
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
+}
+.-test-setting-environment-button3 {
+  color: rgb(255, 255, 255);
+  align-self: center;
+  background-color: rgb(45, 39, 116);
+}
+.-test-setting-environment-container29 {
+  width: 100%;
+  height: 149px;
+  display: flex;
+  align-items: flex-start;
+}
+.-test-setting-environment-container30 {
+  flex: 0 0 auto;
+  width: 85%;
+  height: 130px;
+  display: flex;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  border-color: #000000;
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: column;
+}
+.-test-setting-environment-container31 {
+  flex: 0 0 auto;
+  width: 98%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  margin-left: 1%;
+  flex-direction: column;
+}
+.-test-setting-environment-text33 {
+  color: var(--dl-color-gray-black);
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text34 {
+  width: 100%;
+  height: auto;
+  font-family: Titillium Web;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-container32 {
+  width: 100%;
+  height: 33px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text35 {
+  width: 100%;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text36 {
+  width: 100%;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text37 {
+  width: 100%;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-text38 {
+  width: 100%;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 400;
+  padding-top: var(--dl-space-space-halfunit);
+}
+.-test-setting-environment-container33 {
+  left: 0px;
+  width: 100%;
+  bottom: 12px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.-test-setting-environment-text39 {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: 6px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 20px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 6px ;
+  background-color: rgb(69, 83, 157);
+}
+.-test-setting-environment-text40 {
+  color: rgb(255, 255, 255);
+  right: 130px;
+  bottom: 0px;
+  height: 100%;
+  position: absolute;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: 6px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 20px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 6px ;
+  background-color: rgb(69, 83, 157);
+}
+.-test-setting-environment-text41 {
+  top: 0px;
+  color: rgb(255, 255, 255);
+  right: var(--dl-space-space-oneandhalfunits);
+  position: absolute;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Titillium Web;
+  font-weight: 600;
+  padding-top: 6px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 20px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 6px ;
+  background-color: #278a4f;
+}
+.-test-setting-environment-container34 {
+  flex: 0 0 auto;
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
+}
+.-test-setting-environment-button4 {
+  color: rgb(255, 255, 255);
+  align-self: center;
+  background-color: rgb(45, 39, 116);
+}
+@media(max-width: 767px) {
+  .-test-setting-environment-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .-test-setting-environment-desktop-menu {
+    display: none;
+  }
+  .-test-setting-environment-burger-menu {
+    display: flex;
+  }
+}
+@media(max-width: 479px) {
+  .-test-setting-environment-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .-test-setting-environment-mobile-menu {
+    padding: 16px;
+  }
+}
